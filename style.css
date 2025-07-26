@@ -1,0 +1,92 @@
+/* style.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+input[type="number"],
+input[type="text"] {
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 300px;
+    display: block;
+}
+
+.result-box {
+    background: #fdfdfd;
+    border: 1px solid #ddd;
+    border-left: 5px solid #3498db;
+    padding: 20px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 850px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    animation: fadeIn 0.5s ease;
+}
+
+.result-box h3 {
+    margin-top: 0;
+    color: #3498db;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.result-box table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 15px;
+    color: #333;
+}
+
+.result-box table thead {
+    background-color: #e8f5e9;
+}
+
+.result-box table th,
+.result-box table td {
+    padding: 12px 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.result-box table th {
+    color: #3498db;
+    font-weight: bold;
+}
